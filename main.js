@@ -10,14 +10,14 @@ const snare = document.getElementById("Snare")
 const kick = document.getElementById("Kick")
 const crash = document.getElementById("Crash")
 
-var crashaudio = new Audio("/audio/crash.mp3")
-var tom1audio = new Audio("/audio/tom1.mp3")
-var tom2audio = new Audio("/audio/tom2.mp3")
-var tom3audio = new Audio("/audio/tom3.mp3")
-var hihatOpenaudio = new Audio("/audio/hihat_open.mp3")
-var hihatClosedaudio = new Audio("/audio/hihat_closed.mp3")
-var snareaudio = new Audio("/audio/snare.mp3")
-var kickaudio = new Audio("/audio/kick.mp3")
+var crashaudio = new Audio("audio/crash.mp3")
+var tom1audio = new Audio("audio/tom1.mp3")
+var tom2audio = new Audio("audio/tom2.mp3")
+var tom3audio = new Audio("audio/tom3.mp3")
+var hihatOpenaudio = new Audio("audio/hihat_open.mp3")
+var hihatClosedaudio = new Audio("audio/hihat_closed.mp3")
+var snareaudio = new Audio("audio/snare.mp3")
+var kickaudio = new Audio("audio/kick.mp3")
 
 let isCrashPlaying = false;
 let isTom1Playing = false;
