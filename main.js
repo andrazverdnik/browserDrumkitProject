@@ -29,7 +29,7 @@ let isSnarePlaying = false;
 let isKickPlaying = false;
 
 // Adding event listener to every button to play and animate
-
+document.documentElement.style="touch-action: manipulation;"
 crash.addEventListener("click", () => {
     if (isCrashPlaying) {
         crash.classList.add("drumPressed");
